@@ -8,7 +8,7 @@ import 'package:dashboard/src/features/main/presentation/bloc/dashboard_bloc.dar
 
 void registerDashboardModules(GetIt it) {
   it.registerFactory<JobsRemoteDataSource>(
-    () => MockJobsRemoteDataSourceImpl(),
+    () => JobsRemoteDataSourceImpl(dio: it<Dio>()),
   );
  
   it.registerFactory<JobsRepository>(

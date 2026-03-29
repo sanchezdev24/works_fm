@@ -25,7 +25,6 @@ class _DashboardScreenState extends State<DashboardScreen> {
   @override
   void initState() {
     super.initState();
-    context.read<DashboardBloc>().add(const DashboardLoadJobsEvent());
     _scrollController.addListener(_onScroll);
   }
 
