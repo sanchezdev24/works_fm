@@ -1,0 +1,19 @@
+{
+  "@@locale": "es",
+  "loginTitle": "Iniciar sesión",
+  "loginSubtitle": "Ingresa a tu cuenta para continuar",
+  "emailLabel": "Correo electrónico",
+  "emailPlaceholder": "hola@ejemplo.com",
+  "passwordLabel": "Contraseña",
+  "rememberMe": "Recuérdame",
+  "forgotPassword": "¿Olvidaste tu contraseña?",
+  "loginButton": "Iniciar sesión",
+  "orContinueWith": "o continúa con",
+  "continueWithGoogle": "Continuar con Google",
+  "noAccount": "¿No tienes cuenta?",
+  "createAccount": "Crear cuenta",
+  "emailRequired": "Ingresa tu correo",
+  "emailInvalid": "Correo inválido",
+  "passwordRequired": "Ingresa tu contraseña",
+  "passwordMinLength": "Mínimo 6 caracteres"
+}

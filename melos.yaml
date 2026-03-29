@@ -1,0 +1,10 @@
+
+name: ecommerce_fm
+
+packages:
+  - .                    # la app principal
+  - packages/**          # todos los packages
+
+command:
+  bootstrap:
+    usePubspecOverrides: true
