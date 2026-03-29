@@ -5,7 +5,7 @@ import 'package:dashboard/src/composition/router/dashboard_routes.dart';
 import 'package:core/core.dart';
 import 'package:flutter/material.dart';
 
-class AuthModules extends FeatureModule {
+class DashboardModules extends FeatureModule {
   @override
   void register(GetIt it) {
     registerDashboardModules(it);

@@ -17,6 +17,8 @@ dependencies:
     path: packages/core
   auth:
     path: packages/auth
+  dashboard:
+    path: packages/dashboard
 
 dev_dependencies:
   flutter_test:

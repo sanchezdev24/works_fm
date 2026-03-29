@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 Future<GetIt> boostrap() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  const baseUrl = '';
+  const baseUrl = 'https://works-backend-sckq.onrender.com/api/v1';
   final it = await setudDI(baseUrl);
   return it;
 }
