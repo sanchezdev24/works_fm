@@ -8,7 +8,7 @@ final List<GoRoute> dashboardRoutes = [
     path: DashboardRoutesPaths.dashboard,
     builder: (context, state) => BlocProvider(
       create: (_) => GetIt.I<DashboardBloc>()
-        ..add(const DashboardLoadJobsEvent()),
+        ..add( DashboardLoadJobsEvent()),
       child: const DashboardScreen(),
     ),
   ),

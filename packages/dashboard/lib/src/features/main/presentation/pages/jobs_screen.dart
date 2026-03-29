@@ -38,7 +38,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   void _onScroll() {
     if (_scrollController.position.pixels >=
         _scrollController.position.maxScrollExtent - 200) {
-      context.read<DashboardBloc>().add(const DashboardLoadMoreJobsEvent());
+      context.read<DashboardBloc>().add(DashboardLoadMoreJobsEvent());
     }
   }
 
@@ -98,7 +98,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       theme: theme,
                       onRetry: () => context
                           .read<DashboardBloc>()
-                          .add(const DashboardRefreshJobsEvent()),
+                          .add( DashboardRefreshJobsEvent()),
                     );
                   }
 
@@ -110,7 +110,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     onRefresh: () async {
                       context
                           .read<DashboardBloc>()
-                          .add(const DashboardRefreshJobsEvent());
+                          .add( DashboardRefreshJobsEvent());
                     },
                     child: ListView.builder(
                       controller: _scrollController,
@@ -200,7 +200,7 @@ class _Header extends StatelessWidget {
             size: core.ShadButtonSize.sm,
             onPressed: () => context
                 .read<DashboardBloc>()
-                .add(const DashboardRefreshJobsEvent()),
+                .add( DashboardRefreshJobsEvent()),
             child: Icon(
               core.LucideIcons.refreshCw,
               size: 18,
