@@ -4,12 +4,12 @@ import 'package:dashboard/src/features/main/presentation/bloc/dashboard_bloc.dar
 import 'package:dashboard/src/features/main/presentation/pages/jobs_screen.dart';
 
 final List<GoRoute> dashboardRoutes = [
- GoRoute(
+ /* GoRoute(
     path: DashboardRoutesPaths.dashboard,
     builder: (context, state) => BlocProvider(
       create: (_) => GetIt.I<DashboardBloc>()
         ..add( DashboardLoadJobsEvent()),
       child: const DashboardScreen(),
     ),
-  ),
+  ), */
 ];
