@@ -83,8 +83,8 @@ packages:
   core:
     dependency: "direct main"
     description:
-      path: "packages/core"
-      relative: true
+      path: "C:\\Users\\sanro\\development\\sanchezsystems\\core_mobile"
+      relative: false
     source: path
     version: "0.0.1"
   crypto:
@@ -366,10 +366,10 @@ packages:
     dependency: transitive
     description:
       name: lucide_icons_flutter
-      sha256: "39472ddc8c5fc586d06a619a3871817ea02dd17defd31e67dcfc9ec77658b2a1"
+      sha256: df29c1cf4f19f9309f5204d40e0ba95338d9946a8ffdb4d75cf9aaccf449ce41
       url: "https://pub.dev"
     source: hosted
-    version: "3.1.11"
+    version: "3.1.12"
   matcher:
     dependency: transitive
     description:
@@ -651,10 +651,10 @@ packages:
     dependency: transitive
     description:
       name: vector_graphics
-      sha256: "7076216a10d5c390315fbe536a30f1254c341e7543e6c4c8a815e591307772b1"
+      sha256: "81da85e9ca8885ade47f9685b953cb098970d11be4821ac765580a6607ea4373"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.20"
+    version: "1.1.21"
   vector_graphics_codec:
     dependency: transitive
     description:
